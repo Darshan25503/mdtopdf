@@ -1,0 +1,28 @@
+{
+  "name": "markdown-to-pdf-converter",
+  "version": "1.0.0",
+  "description": "A Node.js server that converts Markdown files to PDF",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "markdown",
+    "pdf",
+    "converter",
+    "express",
+    "puppeteer"
+  ],
+  "author": "Darshan Bhensdadia",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "marked": "^11.0.0",
+    "puppeteer": "^21.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
+
